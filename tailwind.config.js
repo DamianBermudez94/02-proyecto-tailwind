@@ -26,6 +26,9 @@ export default {
         "Dark-Grayish-Blue": "hsl(228, 12%, 44%)",
         "Very-Dark-Blue": "hsl(230, 17%, 14%)",
 
+      },
+      fontFamily:{
+        Inter:["Inter"]
       }
     },
   },

@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face{
+  font-family: 'Inter';
+  src: url("./assets/Fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
 :root {
   margin: 0;
   padding: 0;
