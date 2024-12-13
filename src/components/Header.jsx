@@ -8,7 +8,11 @@ const Header = () => {
         <hr />
         <div className='flex justify-between mt-5'>
             <p>Dark mode</p>
-            <input type="checkbox"/>
+            <label htmlFor="darkmode" className='border bg-Toggle-Ligth-theme w-12 h-6 rounded-full cursor-pointer p-[3px]'>
+            <input id='darkmode' type="checkbox" className='peer sr-only'/>
+            <div className='w-[16px] h-[16px] bg-Light-Grayish-Blue rounded-full peer-checked:translate-x-[24px] transition-all'></div>
+            </label>
+            
         </div>
     </header>
   )
