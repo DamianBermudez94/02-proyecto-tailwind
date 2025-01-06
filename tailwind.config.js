@@ -34,7 +34,10 @@ export default {
       
       fontFamily:{
         Inter:["Inter"]
-      }
+      },
+       fontSize: {
+        'responsive': 'clamp(1rem, 2.5vw, 6rem)',
+      },
     },
   },
   plugins: [],

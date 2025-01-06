@@ -3,7 +3,7 @@
         {
             "id": "01",
             "network": "Facebook",
-            "user": "Dami94",
+            "user": "@Dami94",
             "audienceType": "followers",
             "audience": 1987,
             "today": 12,
@@ -12,7 +12,27 @@
         {
             "id": "02",
             "network": "Twitter",
-            "user": "Lukitas94",
+            "user": "@DamiBer1994",
+            "audienceType": "followers",
+            "audience": 1044,
+            "today": 99,
+            "isUp": true
+        }
+        ,
+        {
+            "id": "03",
+            "network": "Instagram",
+            "user": "@DamianB94",
+            "audienceType": "followers",
+            "audience": 1044,
+            "today": 99,
+            "isUp": true
+        }
+        ,
+        {
+            "id": "04",
+            "network": "YouTube",
+            "user": "@DamiBermu",
             "audienceType": "followers",
             "audience": 1044,
             "today": 99,
