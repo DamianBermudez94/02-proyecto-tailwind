@@ -5,7 +5,7 @@ import { OverviewCard } from './OverviewCard';
 
 export const OverviewContainer = () => {
   return (
-    <section>
+    <section className='relative top-48 left-0 right-0'>
       {
         data.overview.map((item) => {
           return <OverviewCard
