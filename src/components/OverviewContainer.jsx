@@ -14,6 +14,7 @@ export const OverviewContainer = () => {
             followers={item.audience}
             audience={item.audienceType}
             day={item.today}
+            network={item.network}
           />
         })
       }
