@@ -15,7 +15,7 @@ export default {
         "YouTube": "hsl(348, 97%, 39%)",
         "Toggle-Dark-theme": "linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)",
         "Very-Dark-Blue": "hsl(230, 17%, 14%)",
-        "Very-Dark-Blue": "hsl(232, 19%, 15%)",
+        "Very-Dark-Blue-superior": "hsl(232, 19%, 15%)",
         "Dark-Desaturated-Blue": "hsl(228, 28%, 20%)",
         "Desaturated-Blue": "hsl(228, 34%, 66%)",
         "White": "hsl(0, 0%, 100%)",
@@ -28,15 +28,25 @@ export default {
 
       },
       backgroundImage:{
-        "Toggle-Gradient":"linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
-        "Instagram-Gradient":"linear-gradient (to right, hsl(37, 97%, 70%),hsl(329, 70%, 58%))"
+        "Toggle-Gradient": "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
+        "Instagram-Gradient": "linear-gradient(to right, hsl(37, 97%, 70%),hsl(329, 70%, 58%))"
+      },
+      screens: {
+        'tablet': '640px',
+        // => @media (min-width: 640px) { ... }
+  
+        'laptop': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'desktop': '1280px',
+        // => @media (min-width: 1280px) { ... }
       },
       
       fontFamily:{
         Inter:["Inter"]
       },
        fontSize: {
-        'responsive': 'clamp(1rem, 2.5vw, 6rem)',
+        'responsive': 'clamp(1.5rem, 2.5vw, 6rem)',
       },
     },
   },
