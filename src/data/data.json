@@ -38,5 +38,77 @@
             "today": "144",
             "isUp": false
         }
+    ],
+    "OverviewToday": [
+        {
+            "id": "05",
+            "network": "Facebook",
+            "audienceType": "Page Views",
+            "audience": 87,
+            "today": "3",
+            "isUp": true
+        },
+        {
+           "id": "06",
+            "network": "Facebook",
+            "audienceType": "Likes",
+            "audience": 52,
+            "today": "2",
+            "isUp": false
+        }
+        ,
+        {
+            "id": "07",
+            "network": "Instagram",
+            "audienceType": "Likes",
+            "audience": 5462,
+            "today": "2257",
+            "isUp": true
+        }
+        ,
+        {
+            "id": "08",
+            "network": "Instagram",
+            "audienceType": "Profile Views",
+            "audience": 8239,
+            "today": "1375",
+            "isUp": true
+        }
+        ,
+        {
+            "id": "09",
+            "network": "Twitter",
+            "audienceType": "Retweets",
+            "audience": 117,
+            "today": "303",
+            "isUp":true
+        }
+        ,
+        {
+            "id": "10",
+            "network": "Twitter",
+            "audienceType": "Likes",
+            "audience": 507,
+            "today": "553",
+            "isUp": true
+        }
+        ,
+        {
+            "id": "11",
+            "network": "YouTube",
+            "audienceType": "Total Views",
+            "audience": 1407,
+            "today": "12",
+            "isUp": false
+        }
+        ,
+        {
+            "id": "12",
+            "network": "YouTube",
+            "audienceType": "Likes",
+            "audience": 107,
+            "today": "19",
+            "isUp": false
+        }
     ]
 }
