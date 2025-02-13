@@ -25,12 +25,12 @@ const Header = () => {
   }, [darkMode])
   return (
     <header className='bg-Very-Pale-Blue dark:bg-Very-Dark-Blue-superior w-full h-[235px] rounded-b-[20px] p-6'>
-      <h1 className='text-Very-Dark-Blue dark:text-Light-Grayish-Blue text-responsive font-bold mb-1'>Social Media Dashboard</h1>
-      <p className='text-Dark-Grayish-Blue dark:text-Desaturated-Blue text-[14px] font-bold mb-6'>Total Followers: 23,004</p>
+      <h1 className='text-Very-Dark-Blue dark:text-Light-Grayish-Blue text-responsive font-bold mb-1 lg:px-40'>Social Media Dashboard</h1>
+      <p className='text-Dark-Grayish-Blue dark:text-Desaturated-Blue text-[14px] font-bold mb-6 lg:px-40'>Total Followers: 23,004</p>
       <hr className='text-Very-Dark-Blue borde' />
-      <div className='flex justify-between mt-5 overflow-hidden'>
-        <p className='text-Dark-Grayish-Blue font-bold dark:text-Desaturated-Blue'>Dark mode</p>
-        <label htmlFor="darkmode" className='border relative bg-Desaturated-Blue overflow-hidden w-12 h-6 rounded-full cursor-pointer p-[3px]'>
+      <div className='flex justify-between mt-5 overflow-hidden lg:px-40'>
+        <p className='text-Dark-Grayish-Blue font-bold dark:text-Desaturated-Blue '>Dark mode</p>
+        <label htmlFor="darkmode" className='border relative bg-Desaturated-Blue overflow-hidden w-12 h-6 rounded-full cursor-pointer p-[3px] '>
           <input onClick={handleClick} id='darkmode' type="checkbox" className='peer sr-only' />
           <div className='w-full h-full peer-checked:bg-Toggle-Gradient absolute top-0 left-0 overflow-hidden'>
           </div>
