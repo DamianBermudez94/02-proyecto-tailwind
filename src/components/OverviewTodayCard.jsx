@@ -24,11 +24,11 @@ export const OverviewTodayCard = ({ audienceType, network, audience, followers, 
   return (
 
     <article className='bg-Light-Grayish-Blue dark:bg-Dark-Desaturated-Blue 
-  rounded-md p-4 flex flex-col text-center 
-  w-full min-w-[250px] max-w-[330px] h-auto 
+  rounded-md p-8 flex flex-col text-center 
+  w-full min-w-[250px] h-auto 
   overflow-hidden hover:brightness-95 hover:dark:brightness-125 cursor-pointer'>
       <div className='flex justify-between mb-[21px]'>
-      <p className='text-xs uppercase tracking-[5px] text-Dark-Grayish-Blue'>{audience}</p>
+      <p className='text-xs uppercase font-extrabold tracking-[5px] text-Dark-Grayish-Blue'>{audience}</p>
      
         <img className='p-1 w-8 h-8' src={networkLogos[network]} alt={`logo ${network}`} />
      

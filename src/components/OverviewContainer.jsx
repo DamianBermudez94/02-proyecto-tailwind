@@ -32,10 +32,10 @@ export const OverviewContainer = () => {
           })
         }
       </section>
-      <section className='px-1'>
-        <h2 className=' w-[250px]text-Very-Dark-Blue dark:text-Light-Grayish-Blue text-responsive ml-2 mb-2 p-1 font-bold sm:px-40'>Overview - Today</h2>
+      <section className='flex flex-col px-4 sm:px-10 md:px-20 lg:px-32 xl:px-40'>
+        <h2 className='w-full min-w-[250px] text-Very-Dark-Blue dark:text-Light-Grayish-Blue text-responsive my-8 font-bold '>Overview - Today</h2>
 
-        <div className='grid gap-4 p-4 grid-cols-1 place-items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:px-10 '>
+        <div className='grid gap-4 grid-cols-1 place-items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {
             data.OverviewToday.map((item) => {
               return <OverviewTodayCard

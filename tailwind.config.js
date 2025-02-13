@@ -46,7 +46,7 @@ export default {
         Inter:["Inter"]
       },
        fontSize: {
-        'responsive': 'clamp(1.5rem, 2.5vw, 6rem)',
+        'responsive': 'clamp(1.5rem, 2vw, 6rem)',
       },
     },
   },
