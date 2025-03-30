@@ -1,6 +1,6 @@
 # Social Media Dashboard con Theme Switcher
 
-![Vista previa del diseño](../design/desktop-preview.jpg)
+![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
 
 ## 🚀 Proyecto
 Este es un proyecto basado en un desafío de **Frontend Mentor**, donde desarrollé un **dashboard de redes sociales** con la funcionalidad de cambio de tema (modo claro/oscuro).
